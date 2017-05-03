@@ -47,4 +47,4 @@ To build the front end, run ```ng build``` in the client directory.
 
 ## License
 
-[GPLv3.0](https://github.com/rgujju/MeanApp/blob/master/LICENSE) © Rohit Gujarathi
+[MIT](https://github.com/rgujju/MeanApp/blob/master/LICENSE) © Rohit Gujarathi
