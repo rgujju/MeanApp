@@ -595,9 +595,9 @@ module.exports = __webpack_require__(91);
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 // The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: true,
-    URL: 'http://localhost:3000'
-    //URL: 'http://localhost:3000', //local url
+    production: false,
+    //URL: '' //For Heroku production
+    URL: 'http://localhost:8080',
 };
 //# sourceMappingURL=environment.js.map
 
