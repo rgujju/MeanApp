@@ -1,0 +1,41 @@
+<div class="container">
+
+      <form class="form-signin" [formGroup]="loginForm" novalidate (ngSubmit)="loginSubmit(loginForm.value, loginForm.valid)">
+        <h2 class="form-signin-heading">Please sign in</h2>
+          <div 
+            class="alert alert-danger" 
+            *ngIf="_loginError">
+              Username or Password is Incorrect
+          </div>
+        <label for="username" class="sr-only">Username</label>
+        <input 
+          formControlName = "username"
+          type="username" 
+          class="form-control" 
+          placeholder="Username" 
+          name="username"
+          required 
+          autofocus>
+
+       
+       <label for="password" class="sr-only">Password</label>
+        <input 
+          formControlName = "password"
+          type="password" 
+          class="form-control" 
+          name="password" 
+          placeholder="Password" 
+          required>
+        
+        <div class="checkbox">
+          <label>
+            <input 
+              formControlName = "remember"
+              type="checkbox" 
+              value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+
+</div> <!-- /container -->
