@@ -6,5 +6,5 @@
 export const environment = {
   production: false,
   //URL: '' //For Heroku production
-  URL: 'http://localhost:3000', //local url
+  URL: 'http://localhost:8080', //local url
 };
